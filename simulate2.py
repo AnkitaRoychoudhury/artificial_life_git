@@ -9,7 +9,10 @@ import constants as c
 from simulation import SIMULATION
 
 simulation = SIMULATION()
+simulation.Run()
 
+
+#physicsClient = p.connect(p.GUI)
 # # motor command vector
 # angle_range = np.linspace(0, 2*np.pi, c.num_iters)
 # targetAngles_BackLeg = c.amplitude_BackLeg * np.sin(c.frequency_BackLeg * angle_range + c.phaseOffset_BackLeg)

@@ -43,11 +43,6 @@ def Create_Robot():
    
     
 
-
-
-
-
-
 Create_World()
 Create_Robot()
 
