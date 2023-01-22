@@ -33,14 +33,6 @@ class ROBOT:
         for jointName in pyrosim.jointNamesToIndices:
             self.motors[jointName] = MOTOR(jointName)
 
-        # print(MOTOR(jointName))
-        # # make one frequency half the other
-        # if self.motors[jointName] == 'Torso_BackLeg':
-        #     self.frequency = 10
-        #     print('here')
-        # else:
-            #self.frequency = 5
-
         self.amplitude = np.pi/4
         self.frequency = 5
         self.offset = 0
@@ -48,12 +40,6 @@ class ROBOT:
         angle_range = np.linspace(0, 2*np.pi, c.num_iters)
         self.targetAngles = self.amplitude * np.sin(self.frequency * angle_range + self.offset)
         self.targetAngles2 = self.amplitude * np.sin(self.frequency/2 * angle_range + self.offset)
-
-
-        
-            
-            
-               
 
     def Act(self, t):
         for i, curr_motor in enumerate(self.motors):
