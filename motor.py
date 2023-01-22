@@ -11,19 +11,22 @@ class MOTOR:
 		self.motorValues =  np.zeros(c.num_iters)
 		
 
-	def Set_Value(self, robot,t):
+	def Set_Value(self, jointName, desiredAngle):
 		#print('joint', self.jointName)
 
-		if self.jointName == "Torso_BackLeg":
-			self.motorValues[t] = pyrosim.Set_Motor_For_Joint(bodyIndex = robot.robotId,jointName = self.jointName, 
-			controlMode = p.POSITION_CONTROL,targetPosition = robot.targetAngles2[t] ,maxForce = c.force)
-			#print('target angles2')
-		else:
-			self.motorValues[t] = pyrosim.Set_Motor_For_Joint(bodyIndex = robot.robotId,jointName = self.jointName, 
-			controlMode = p.POSITION_CONTROL,targetPosition = robot.targetAngles[t] ,maxForce = c.force)
+		#t = desiredAngle
 
-	def Save_Values(self):
-		np.save('data/motorValues.npy',self.motorValues)
+		# of just (desiredAngle = )
+		desiredAngle = pyrosim.Set_Motor_For_Joint(bodyIndex = self.robotId,jointName = jointName, 
+		controlMode = p.POSITION_CONTROL,targetPosition = desiredAngle ,maxForce = c.force)
+		#targetPosition = robot.targetAngles2[t]
+
+			#print('target angles2')
+		 #changing targetAngles so one is 1/2 the other
+		# else:
+		# 	self.motorValues[t] = pyrosim.Set_Motor_For_Joint(bodyIndex = robot.robotId,jointName = self.jointName, 
+		# 	controlMode = p.POSITION_CONTROL,targetPosition = robot.targetAngles[t] ,maxForce = c.force)
+
 		
 
 		 	
