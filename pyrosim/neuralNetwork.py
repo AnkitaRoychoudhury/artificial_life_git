@@ -32,11 +32,15 @@ class NEURAL_NETWORK:
     def Update(self):
         for i,key in enumerate(self.neurons):
             #print(key)
+            
             neuronName = key
+            #print('nn',neuronName)
             if self.neurons[neuronName].Is_Sensor_Neuron():
                 self.neurons[neuronName].Update_Sensor_Neuron()
             else:
-                self.neurons[neuronName].Update_Hidden_Or_Motor_Neuron()
+        
+                self.neurons[neuronName].Update_Hidden_Or_Motor_Neuron(self.neurons, self.synapses) # self.neurons[neuronname]?
+    
 
     def Get_Neuron_Names(self):
         key_list = []

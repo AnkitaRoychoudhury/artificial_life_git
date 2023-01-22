@@ -43,7 +43,7 @@ class ROBOT:
 
     def Think(self, t):
         self.nn.Update()
-        self.nn.Print()
+        #self.nn.Print()
         
 
 

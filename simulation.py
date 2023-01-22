@@ -26,4 +26,3 @@ class SIMULATION:
 
     def __del__(self):
         p.disconnect()
-
