@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-num_iters = 10000
+num_iters = 1000
 sleep_time = 1/5000
 
 amplitude_BackLeg = np.pi/4
