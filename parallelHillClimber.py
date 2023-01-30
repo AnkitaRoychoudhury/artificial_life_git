@@ -21,7 +21,10 @@ class PARALLEL_HILL_CLIMBER:
     def Evolve(self):
 
         for i,key in enumerate(self.parents):
-            self.parents[i].Evaluate("GUI")
+            self.parents[i].Start_Simulation("GUI")
+
+        for i,key in enumerate(self.parents):
+            self.parents[i].Wait_For_Simulation_To_End()
     
 
         # self.parent.Evaluate('DIRECT') # .parent'
@@ -44,8 +47,6 @@ class PARALLEL_HILL_CLIMBER:
     
     def Mutate(self):
         self.child.Mutate()
-        
-        
 
     def Select(self):
         if self.parent.fitness > self.child.fitness:

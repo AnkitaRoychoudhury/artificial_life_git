@@ -51,11 +51,14 @@ class ROBOT:
         
 
     def Get_Fitness(self):
+        p.connect(p.GUI)
         stateOfLinkZero = p.getLinkState(self.robotId,0)
+        print('here')
         positionOfLinkZero = stateOfLinkZero[0]
         xCoordinateOfLinkZero = positionOfLinkZero[0]
 
         f = open('tmp' + str(self.solutionID) + '.txt', 'w')
+        #print("HERE")
         os.system('mv tmp ' + str(self.solutionID) + '.txt fitness'+ str(self.solutionID) + '.txt')
         #f = open('fitness' + str(self.solutionID) + '.txt', 'w')
 

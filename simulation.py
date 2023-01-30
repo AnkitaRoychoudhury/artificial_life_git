@@ -24,8 +24,7 @@ class SIMULATION:
         self.world = WORLD()
         self.robot = ROBOT(self.solutionID)
 
-        #p.connect(p.DIRECT)
-        #p.connect(p.GUI)
+  
         
 
     def Run(self):
@@ -37,6 +36,7 @@ class SIMULATION:
             self.robot.Act(t)
             if self.directOrGUI == 'GUI':
                 time.sleep(c.sleep_time)
+        p.disconnect()
 
     def Get_Fitness(self):
         self.robot.Get_Fitness()

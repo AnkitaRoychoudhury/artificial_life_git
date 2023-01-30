@@ -12,16 +12,35 @@ class SOLUTION:
         self.weights = np.random.rand(3,2) * 2 -1
         self.myID = nextAvailableID
 
-    def Evaluate(self, display):
+    #def Evaluate(self, display):
         
+        # self.Create_World()
+        # self.Create_Body()
+        # self.Create_Brain()
+        
+
+        # os.system('python3 simulate2.py ' + display + " " + str(self.myID) + " & " )
+        #os.system('python3 simulate2.py ' + display + " & " + str(self.myID))
+    
+        # fitnessFileName = 'fitness' + str(self.myID) + '.txt'
+        
+        # while not os.path.exists(fitnessFileName):
+        #     time.sleep(0.01)
+        
+        # f = open(fitnessFileName)
+        # self.fitness = float(f.read())
+        # f.close()
+
+    def Start_Simulation(self, display):
+
         self.Create_World()
         self.Create_Body()
         self.Create_Brain()
-        
 
         os.system('python3 simulate2.py ' + display + " " + str(self.myID) + " & " )
-        #os.system('python3 simulate2.py ' + display + " & " + str(self.myID))
-    
+
+
+    def Wait_For_Simulation_To_End(self):
         fitnessFileName = 'fitness' + str(self.myID) + '.txt'
         
         while not os.path.exists(fitnessFileName):
@@ -30,6 +49,8 @@ class SOLUTION:
         f = open(fitnessFileName)
         self.fitness = float(f.read())
         f.close()
+        os.system('rm ' + fitnessFileName)
+        print(self.fitness)
         
 
     def Set_ID(self, val):
