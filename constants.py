@@ -1,8 +1,8 @@
 import numpy as np
 import random
 
-num_iters = 1000
-sleep_time = 1/5000
+num_iters = 2000
+sleep_time = 1/10000
 
 amplitude_BackLeg = np.pi/4
 frequency_BackLeg = 10
@@ -19,4 +19,5 @@ targPos = (b-a) * random.random() + a
 #targPos = random.uniform(a,b)
 force = 100
 
-numberOfGenerations = 10
+numberOfGenerations = 5
+populationSize = 7

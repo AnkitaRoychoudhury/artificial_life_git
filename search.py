@@ -1,10 +1,10 @@
 import os
-from hillclimber import HILL_CLIMBER
+from parallelHillClimber import PARALLEL_HILL_CLIMBER
 
-hc = HILL_CLIMBER()
-hc.Show_Best()
-hc.Evolve()
-hc.Show_Best()
+phc = PARALLEL_HILL_CLIMBER()
+#phc.Show_Best()
+phc.Evolve()
+phc.Show_Best()
 
 #os.system('python3 hillclimber.py')
 # os.system('python3 simulate2.py')
