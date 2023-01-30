@@ -18,3 +18,5 @@ b = np.pi/2
 targPos = (b-a) * random.random() + a
 #targPos = random.uniform(a,b)
 force = 100
+
+numberOfGenerations = 10
