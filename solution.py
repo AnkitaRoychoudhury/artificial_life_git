@@ -2,25 +2,38 @@ import numpy as np
 import numpy.random as rand
 import pyrosim.pyrosim as pyrosim
 import os
+import time
 
 
 class SOLUTION:
 
-    def __init__(self):
+    def __init__(self, nextAvailableID):
         
         self.weights = np.random.rand(3,2) * 2 -1
+        self.myID = nextAvailableID
 
     def Evaluate(self, display):
         
         self.Create_World()
         self.Create_Body()
         self.Create_Brain()
+        
 
-        os.system('python3 simulate2.py ' + display)
-
-        f = open('fitness.txt')
+        os.system('python3 simulate2.py ' + display + " " + str(self.myID) + " & " )
+        #os.system('python3 simulate2.py ' + display + " & " + str(self.myID))
+    
+        fitnessFileName = 'fitness' + str(self.myID) + '.txt'
+        
+        while not os.path.exists(fitnessFileName):
+            time.sleep(0.01)
+        
+        f = open(fitnessFileName)
         self.fitness = float(f.read())
         f.close()
+        
+
+    def Set_ID(self, val):
+        self.myID = val
 
    
 
@@ -54,7 +67,7 @@ class SOLUTION:
 
     def Create_Brain(self):
 
-        pyrosim.Start_NeuralNetwork("brain.nndf")
+        pyrosim.Start_NeuralNetwork("brain" + str(self.myID) + ".nndf")
 
         pyrosim.Send_Sensor_Neuron(name=0, linkName = "Torso")
         pyrosim.Send_Sensor_Neuron(name=1, linkName = "BackLeg")

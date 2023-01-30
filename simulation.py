@@ -9,9 +9,10 @@ from world import WORLD
 from robot import ROBOT
 
 class SIMULATION:
-    def __init__(self, directOrGUI):
+    def __init__(self, directOrGUI, solutionID):
         
         self.directOrGUI = directOrGUI
+        self.solutionID = solutionID
         
         if directOrGUI == 'DIRECT':
             p.connect(p.DIRECT)
@@ -21,7 +22,7 @@ class SIMULATION:
         #physicsClient = p.connect(p.GUI)
         
         self.world = WORLD()
-        self.robot = ROBOT()
+        self.robot = ROBOT(self.solutionID)
 
         #p.connect(p.DIRECT)
         #p.connect(p.GUI)

@@ -20,3 +20,4 @@ targPos = (b-a) * random.random() + a
 force = 100
 
 numberOfGenerations = 10
+populationSize = 2
