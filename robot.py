@@ -54,15 +54,28 @@ class ROBOT:
         
 
     def Get_Fitness(self):
-        stateOfLinkZero = p.getLinkState(self.robotId,0)
-        positionOfLinkZero = stateOfLinkZero[0]
-        xCoordinateOfLinkZero = positionOfLinkZero[0]
+        # stateOfLinkZero = p.getLinkState(self.robotId,0)
+        # positionOfLinkZero = stateOfLinkZero[0]
+        # xCoordinateOfLinkZero = positionOfLinkZero[0]
+
+        # fitness for sensing another robot???? how to doooo
+
+
+
+        # fitness for getting highest x or z value
+
+        basePositionAndOrientation = p.getBasePositionAndOrientation(self.robotId)
+        basePosition = basePositionAndOrientation[0]
+        xCoordinateOfLinkZero = basePosition[0]
+        #print('base position', basePosition)
+        yCoordinateOfLinkZero = basePosition[1]
+        zCoordinateOfLinkZero = basePosition[2]
 
         tmpFileName = 'tmp' + str(self.solutionID) + '.txt'
         fitnessFileName = 'fitness' + str(self.solutionID) + '.txt'
         f = open(tmpFileName, 'w')
         os.system('mv ' + tmpFileName + ' ' + fitnessFileName)
-        f.write(str(xCoordinateOfLinkZero))
+        f.write(str(yCoordinateOfLinkZero))
         f.close()
     
 

@@ -1,6 +1,6 @@
 <sdf>
     <model name="Torso">
-        <pose>3 3 0.5 0 0 0 </pose>
+        <pose>0 5 0.5 0 0 0 </pose>
         <link name="Torso">
             <inertial>
                 <mass>1.0</mass>

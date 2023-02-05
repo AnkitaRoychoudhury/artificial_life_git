@@ -2,7 +2,7 @@ import os
 from parallelHillClimber import PARALLEL_HILL_CLIMBER
 
 phc = PARALLEL_HILL_CLIMBER()
-#phc.Show_Best()
+#phc.Show_Best_1()
 phc.Evolve()
 phc.Show_Best()
 

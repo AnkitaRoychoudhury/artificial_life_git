@@ -1,5 +1,6 @@
 from solution import SOLUTION
 import constants as c
+import numpy as np
 import copy
 import os
 
@@ -66,27 +67,38 @@ class PARALLEL_HILL_CLIMBER:
 
     def Select(self):
         for i,key in enumerate(self.parents):
-            if self.parents[i].fitness > self.children[i].fitness:
+            if self.parents[i].fitness < self.children[i].fitness: # original >
                 self.parents[i] = self.children[i]
 
     def Print(self):
         for i,key in enumerate(self.parents):
             print('\n', self.parents[i].fitness, self.children[i].fitness,'\n')
 
+
+    def Show_Best_1(self):
+        first_parent = self.parents[0]
+        first_parent.Start_Simulation("GUI")
+
     def Show_Best(self):
-        # find parent with the lowest fitness
-        best_fitness = 5
+  
+        
+        # best fitness is 0 distance from origin
+        best_fitness_dist = 10
+        origin = 1
+
         print(self.parents[0])
         for i,key in enumerate(self.parents):
             curr_fitness = self.parents[i].fitness
-            if curr_fitness < best_fitness:
+            # get distance from world element
+            curr_fitness_distance = np.abs(curr_fitness - origin)
+            if curr_fitness_distance < best_fitness_dist: # original <
                 best_parent_ind = i
 
         best_parent = self.parents[best_parent_ind]
         best_parent.Start_Simulation("GUI")
 
 
-        pass
+        #pass
        #self.parent.Evaluate("GUI")
 
 
