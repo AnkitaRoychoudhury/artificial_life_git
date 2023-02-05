@@ -33,6 +33,8 @@ class SOLUTION:
             time.sleep(1)
 
         f = open(fitnessFileName, "r")
+       # self.fitness = float(f.readlines()[0])
+        print('READLINES',f.readlines())
         self.fitness = float(f.readlines()[0])
 
         f.close()
