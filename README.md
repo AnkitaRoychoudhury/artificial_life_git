@@ -1,6 +1,6 @@
 # artificial_life_git
 
-In this branch (a6_2), I create a kinematic chain that has a random number (between 1 and 10) of links with random number of sensors (between 1 and # of links) in a chain. Sensors are randomly selected and the links with sensors are colored green. Links without sensors are blue. An example is shown below:
+In this branch (a6_2), I create a kinematic chain that has a random number (between 1 and 10) of links with random number of sensors (between 1 and # of links) in a chain. Link length, width, and height are chosen by selecting a random float between 0 and 1. The first link always has length, width, and height of 0.5. Sensors are randomly selected and the links with sensors are colored green. Links without sensors are blue. An example is shown below:
 ![Alt text](img1.png?raw=true "Image 1")
 
 You can run this code by cloning branch a6_2 and running 'python search.py' in your terminal.
