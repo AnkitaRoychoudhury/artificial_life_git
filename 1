@@ -1,20 +1,14 @@
 pybullet build time: Nov 30 2022 00:07:30
-Version = 4.1 Metal - 76.3
-Vendor = Apple
-Renderer = Apple M2
-b3Printf: Selected demo: Physics Server
-startThreads creating 1 threads.
-starting thread 0
-started thread 0 
-MotionThreadFunc thread started
-b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
-
-b3Printf: expected a world element, continuing without it.
-numActiveThreads = 0
-stopping threads
-Thread with taskId 0 exiting
-Thread TERMINATED
-destroy semaphore
-semaphore destroyed
-destroy main semaphore
-main semaphore destroyed
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+expected a world element, continuing without it.Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulate2.py", line 16, in <module>
+    simulation.Run()
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 37, in Run
+    self.robot.Act(t)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/robot.py", line 48, in Act
+    MOTOR.Set_Value(self, jointName, desiredAngle) # Step 72
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/motor.py", line 20, in Set_Value
+    desiredAngle = pyrosim.Set_Motor_For_Joint(bodyIndex = self.robotId,jointName = jointName, 
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/pyrosim/pyrosim.py", line 163, in Set_Motor_For_Joint
+    jointIndex     = jointNamesToIndices[jointName],
+KeyError: '1_2'
