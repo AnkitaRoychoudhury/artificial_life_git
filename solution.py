@@ -157,28 +157,6 @@ class SOLUTION:
                 neuron_list.append(j)
                 links_with_neurons.append(i)
 
-       # print(links_with_neurons)
-        # pyrosim.Send_Sensor_Neuron(name=0, linkName = "0")
-
-        # sensor_names = [0,1,2]
-        # motor_names = [0,1] # or [3,4] step 23
-        # weight = 1
-        # a = -1
-        # b = 1
-        # print('w',self.weights)
-        # print('n',neuron_list)
-        # all pairs of neurons must have synapses : SKIP FOR NOW:( 
-        # if len(neuron_list)>1:
-        #     pairs_list = generate_pairs(neuron_list)
-
-        #     for i,pair in enumerate(pairs_list):
-        #         a = pair[0]
-        #         b = pair[1]
-        #         pyrosim.Send_Synapse(sourceNeuronName = a, targetNeuronName = b, weight = self.weights[a][b])
-
-        # for k,currentRow in enumerate(neuron_list): #from random numbers above
-        #     for currentColumn in range(c.numMotorNeurons): #0,1
-        #         pyrosim.Send_Synapse(sourceNeuronName = currentRow, targetNeuronName = currentColumn+c.numMotorNeurons, weight = self.weights[k][currentColumn])
         
         pyrosim.End()
 
