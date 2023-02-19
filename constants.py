@@ -21,12 +21,12 @@ force = 1
 #100
 
 numberOfGenerations = 2
-populationSize = 1
+populationSize = 3
 
 numSensorNeurons = 3
 #random.randint(1,5)
 #numMotorNeurons = 3
-numMotorNeurons = random.randint(1,3)
+numMotorNeurons = random.randint(1,10)
 numSensorNeurons = random.randint(1,numMotorNeurons)
 
 motorJointRange = 1

@@ -99,22 +99,60 @@ class SOLUTION:
 
         # iterate through the middle blocks
         i=1
+        absy = [0,0.5]
+        absz = [0,0.5]
+        block_dict_y[0] = absy
+        block_dict_z[0] = absz
+
         while i < c.numMotorNeurons:
             l = random.uniform(0,1)
             w = random.uniform(0,1)
             h = random.uniform(0,1)
-            # if i == c.numMotorNeurons:
-            #     print('here')
-            #     pyrosim.Send_Cube(color_code = blue_code ,name = str(i), pos = [0,w/2,0], size = [l,w,h])
-            #     break
+            side = random.choice([1,2,3,4])
 
             # color part
             if i in links_with_neurons:
-                pyrosim.Send_Cube(color_code=green_code , color_name = green_name, name = str(i), pos = [0,w/2,0], size = [l,w,h])
+                color_code = green_code
+                color_name = green_name
+                #pyrosim.Send_Cube(color_code=green_code , color_name = green_name, name = str(i), pos = [0,w/2,0], size = [l,w,h])
             else:
-                pyrosim.Send_Cube(color_code=blue_code ,color_name = blue_name, name = str(i), pos = [0,w/2,0], size = [l,w,h] )
+                color_code = blue_code
+                color_name = blue_name
 
-            pyrosim.Send_Joint(name = str(i) +'_'+ str(i+1), parent = str(i), child = str(i+1), type = 'revolute', position = [0,w,0],jointAxis = '1 0 0')
+                #pyrosim.Send_Cube(color_code=blue_code ,color_name = blue_name, name = str(i), pos = [0,w/2,0], size = [l,w,h] )
+
+            # pick a side
+            if side == 1:
+                posn_cube = [0, -w/2, 0]
+                posn_joint = [0,-w,0]
+                curr_absy = [absy[0] + w,]
+                
+            
+
+            elif side == 2:
+                posn_cube = [0, 0, w/2]
+                posn_joint = [0,0,w]
+                absz += w
+
+            elif side == 3:
+                posn_cube = [0, w/2, 0]
+                posn_joint = [0,w,0]
+                absy += w
+            
+            elif side == 4:
+                posn_cube = [0, -w/2, 0]
+                posn_joint = [0,-w,0]
+                absz+= -w
+
+            # determine if block is hitting other blocks 
+            i
+            block_dict_y[i] = ()
+
+
+
+            pyrosim.Send_Cube(color_code = color_code, color_name = color_name, name = str(i), pos = posn_cube, size = [l,w,h])
+
+            pyrosim.Send_Joint(name = str(i) +'_'+ str(i+1), parent = str(i), child = str(i+1), type = 'revolute', position = posn_joint,jointAxis = '1 0 0')
             
             i += 1
     
