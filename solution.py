@@ -99,15 +99,15 @@ class SOLUTION:
 
         # iterate through the middle blocks
         i=1
-        absy = [0,0.5]
-        absz = [0,0.5]
-        block_dict_y[0] = absy
-        block_dict_z[0] = absz
+        #absy = [0,0.5]
+        #absz = [0,0.5]
+        #block_dict_y[0] = absy
+        #block_dict_z[0] = absz
 
         while i < c.numMotorNeurons:
-            l = random.uniform(0,1)
-            w = random.uniform(0,1)
-            h = random.uniform(0,1)
+            l = random.uniform(0.2,c.maxLen)
+            w = random.uniform(0.2,c.maxLen)
+            h = random.uniform(0.2,c.maxLen)
             side = random.choice([1,2,3,4])
 
             # color part
@@ -125,28 +125,28 @@ class SOLUTION:
             if side == 1:
                 posn_cube = [0, -w/2, 0]
                 posn_joint = [0,-w,0]
-                curr_absy = [absy[0] + w,]
+                #curr_absy = [absy[0] + w,]
                 
             
 
             elif side == 2:
                 posn_cube = [0, 0, w/2]
                 posn_joint = [0,0,w]
-                absz += w
+                #absz += w
 
             elif side == 3:
                 posn_cube = [0, w/2, 0]
                 posn_joint = [0,w,0]
-                absy += w
+                #absy += w
             
             elif side == 4:
                 posn_cube = [0, -w/2, 0]
                 posn_joint = [0,-w,0]
-                absz+= -w
+                #absz+= -w
 
             # determine if block is hitting other blocks 
-            i
-            block_dict_y[i] = ()
+            #i
+            #block_dict_y[i] = ()
 
 
 

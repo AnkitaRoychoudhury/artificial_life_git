@@ -26,7 +26,8 @@ populationSize = 3
 numSensorNeurons = 3
 #random.randint(1,5)
 #numMotorNeurons = 3
-numMotorNeurons = random.randint(1,10)
+numMotorNeurons = random.randint(1,7)
 numSensorNeurons = random.randint(1,numMotorNeurons)
+maxLen = 0.5
 
 motorJointRange = 1
