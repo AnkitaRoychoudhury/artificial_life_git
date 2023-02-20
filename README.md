@@ -4,6 +4,10 @@ In this branch (a7), I create a 3D morphology that has a random number (between 
 
 ![Alt text](img2.png?raw=true "Image 2")
 
+Shown below is a description on how bodies and brains are generated:
+
+![Alt text](img3.png?raw=true "Image 3")
+
 ## Recreate
 You can run this code by cloning branch a7 and running 'python search.py' in your terminal.
 
