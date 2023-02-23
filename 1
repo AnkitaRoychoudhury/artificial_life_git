@@ -10,6 +10,22 @@ MotionThreadFunc thread started
 b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
 
 b3Printf: expected a world element, continuing without it.
+Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulate2.py", line 16, in <module>
+    simulation.Run()
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 35, in Run
+    self.robot.Sense(t)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/robot.py", line 37, in Sense
+    SENSOR.Get_Value(self.sensors[curr_sensor],t)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/sensor.py", line 12, in Get_Value
+    self.values[t] = pyrosim.Get_Touch_Sensor_Value_For_Link(self.linkName)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/pyrosim/pyrosim.py", line 53, in Get_Touch_Sensor_Value_For_Link
+    for pt in pts:
+TypeError: 'NoneType' object is not iterable
+Exception ignored in: <function SIMULATION.__del__ at 0x7fd1a0681280>
+Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 45, in __del__
+pybullet.error: Not connected to physics server.
 numActiveThreads = 0
 stopping threads
 Thread with taskId 0 exiting
@@ -18,19 +34,3 @@ destroy semaphore
 semaphore destroyed
 destroy main semaphore
 main semaphore destroyed
-Traceback (most recent call last):
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulate2.py", line 16, in <module>
-    simulation.Run()
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 37, in Run
-    self.robot.Act(t)
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/robot.py", line 48, in Act
-    MOTOR.Set_Value(self, jointName, desiredAngle) # Step 72
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/motor.py", line 20, in Set_Value
-    desiredAngle = pyrosim.Set_Motor_For_Joint(bodyIndex = self.robotId,jointName = jointName, 
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/pyrosim/pyrosim.py", line 159, in Set_Motor_For_Joint
-    p.setJointMotorControl2(
-pybullet.error: Not connected to physics server.
-Exception ignored in: <function SIMULATION.__del__ at 0x7fe388869280>
-Traceback (most recent call last):
-  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 45, in __del__
-pybullet.error: Not connected to physics server.
