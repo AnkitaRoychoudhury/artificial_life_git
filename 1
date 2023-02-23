@@ -18,3 +18,19 @@ destroy semaphore
 semaphore destroyed
 destroy main semaphore
 main semaphore destroyed
+Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulate2.py", line 16, in <module>
+    simulation.Run()
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 37, in Run
+    self.robot.Act(t)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/robot.py", line 48, in Act
+    MOTOR.Set_Value(self, jointName, desiredAngle) # Step 72
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/motor.py", line 20, in Set_Value
+    desiredAngle = pyrosim.Set_Motor_For_Joint(bodyIndex = self.robotId,jointName = jointName, 
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/pyrosim/pyrosim.py", line 159, in Set_Motor_For_Joint
+    p.setJointMotorControl2(
+pybullet.error: Not connected to physics server.
+Exception ignored in: <function SIMULATION.__del__ at 0x7fe388869280>
+Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 45, in __del__
+pybullet.error: Not connected to physics server.
