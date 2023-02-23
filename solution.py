@@ -223,6 +223,7 @@ class SOLUTION:
 
 
     def Mutate(self):
+        # change function to add
         row = rand.randint(0,c.numSensorNeurons-1)
         col = rand.randint(0, c.numMotorNeurons-1)
 
