@@ -81,13 +81,18 @@ class SOLUTION:
                 links_with_neurons.append(i)
                 j+=1 
 
+        if len(links_with_neurons) == 0:
+            links_with_neurons.append(0)
+        
+
+
         self.links_with_neurons = links_with_neurons
         self.numSensorNeurons = len(links_with_neurons)
         self.weights = np.random.rand(self.numSensorNeurons, c.numMotorNeurons) * 2 - 1
                 
-        length=0.5
-        width=0.5
-        height=0.5
+        length=0.25
+        width=0.25
+        height=0.25
         pyrosim.Start_URDF("body.urdf")
 
 
@@ -136,7 +141,14 @@ class SOLUTION:
             pyrosim.Send_Cube(color_code = color_code, color_name = color_name, name = str(i), pos = posn_cube, size = [l,w,h])
 
             i += 1
-            
+
+         # the last block
+        l = random.uniform(0,1)
+        w = random.uniform(0,1)
+        h = random.uniform(0,1)
+        pyrosim.Send_Cube(color_code=blue_code, color_name = blue_name, name = str(c.numMotorNeurons), pos = [0,w/2,0], size = [l,w,h])
+
+
         # send all cubes then all joints
         i = 1
         while i < c.numMotorNeurons:
@@ -144,12 +156,7 @@ class SOLUTION:
             
             i += 1
     
-        # the last block
-        l = random.uniform(0,1)
-        w = random.uniform(0,1)
-        h = random.uniform(0,1)
-        pyrosim.Send_Cube(color_code=blue_code, color_name = blue_name, name = str(c.numMotorNeurons), pos = [0,w/2,0], size = [l,w,h])
-
+       
         pyrosim.End()
 
 
@@ -182,10 +189,7 @@ class SOLUTION:
         weight = 1
         a = -1
         b = 1
-        print('LINKS WITH NEURONS', links_with_neurons)
-        print('motors', motor_names)
-        print('num motors', c.numMotorNeurons)
-        print('num sensors', self.numSensorNeurons)
+   
         # all pairs of neurons must have synapses:
         for currentRow, a in enumerate(links_with_neurons):
             for currentColumn, b in enumerate(motor_names):
