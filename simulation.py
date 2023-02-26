@@ -18,6 +18,7 @@ class SIMULATION:
             p.connect(p.DIRECT)
         else:
             p.connect(p.GUI)
+            p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
         
         #physicsClient = p.connect(p.GUI)
         

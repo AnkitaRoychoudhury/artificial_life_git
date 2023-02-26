@@ -1,5 +1,6 @@
 import numpy as np
 import numpy.random as rand
+import random
 import pyrosim.pyrosim as pyrosim
 import os
 import time
@@ -61,18 +62,28 @@ class SOLUTION:
         length=1
         width=1
         height=1
-        a = 1
-        b = 0.2
+
+        # get random widths btwn 0.2 and 1
+        a = 0.2
+        b = 1
+        box1 = (b-a) * random.random() + a
+        box2 = (b-a) * random.random() + a
+
         pyrosim.Start_URDF("body.urdf")
         
-        pyrosim.Send_Cube(name = "Torso", pos=[0, 0, 2.5] , size=[1, 3, 1])
+        pyrosim.Send_Cube(name = "Torso", pos=[1,0,1.5] , size=[5, 1, 1])
 
-        pyrosim.Send_Joint( name = "Torso_BackLeft" , parent= "Torso" , child = "BackLeft" , type = "revolute", position = [0,-1.5,3], jointAxis = '1 0 0')
+        pyrosim.Send_Joint( name = "Torso_BackLeft" , parent= "Torso" , child = "BackLeft" , type = "revolute", position = [0.5,0,1], jointAxis = '1 0 0')
         
-        pyrosim.Send_Cube(name = "BackLeft", pos=[0,0,-2] , size=[0.5, 0.5, 2])
+        pyrosim.Send_Cube(name = "BackLeft", pos=[-0.5, 0, -0.5] , size=[box1, 1, 1])
 
-        pyrosim.Send_Joint( name = "Torso_BackRight" , parent= "Torso" , child = "BackRight" , type = "revolute", position = [0,0.5,0], jointAxis = '1 0 0')
-        pyrosim.Send_Cube(name = "BackRight", pos=[0, 0,-1] , size=[0.5, 0.5, 2])
+        pyrosim.Send_Joint( name = "Torso_FrontLeg" , parent= "Torso" , child = "FrontLeg" , type = "revolute", position = [1.5, 0,1], jointAxis = '1 0 0')
+        pyrosim.Send_Cube(name = "FrontLeg", pos=[0.5, 0, -0.5] , size=[box2,1,1])
+
+        # make more cubes
+        pyrosim.Send_Joint( name = "Torso_FrontLeg" , parent= "Torso" , child = "FrontLeg" , type = "revolute", position = [1.5, 0,1], jointAxis = '1 0 0')
+        pyrosim.Send_Cube(name = "FrontLeg", pos=[0.5, 0, -0.5] , size=[box2,1,1])
+
 
         # pyrosim.Send_Cube(name = "LeftLeg", pos=[-0.5, 0, 0] , size=[a, b, b])
         # pyrosim.Send_Joint( name = "Torso_LeftLeg" , parent= "Torso" , child = "LeftLeg" , type = "revolute", position = [-0.5,0,1], jointAxis = '0 1 0')
