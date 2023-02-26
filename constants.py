@@ -19,10 +19,10 @@ targPos = (b-a) * random.random() + a
 #targPos = random.uniform(a,b)
 force = 100
 
-numberOfGenerations = 10
-populationSize = 10
+numberOfGenerations = 2
+populationSize = 2
 
-numSensorNeurons = 9
-numMotorNeurons = 8
+numSensorNeurons = 2
+numMotorNeurons = 1
 
 motorJointRange = 1
