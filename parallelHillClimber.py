@@ -71,7 +71,9 @@ class PARALLEL_HILL_CLIMBER:
 
     def Print(self):
         for i,key in enumerate(self.parents):
-            print('\n', self.parents[i].fitness, self.children[i].fitness,'\n')
+            print('\n',i, self.parents[i].fitness, self.children[i].fitness,'\n')
+
+
 
     def Show_Best(self):
         # find parent with the lowest fitness

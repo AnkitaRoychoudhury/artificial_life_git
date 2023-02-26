@@ -20,8 +20,8 @@ targPos = (b-a) * random.random() + a
 force = 1
 #100
 
-numberOfGenerations = 10
-populationSize = 10
+numberOfGenerations = 2
+populationSize = 2
 
 #numSensorNeurons = 3
 #random.randint(1,5)

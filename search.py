@@ -1,5 +1,8 @@
 import os
 from parallelHillClimber import PARALLEL_HILL_CLIMBER
+import numpy as np
+
+np.random.seed(1)
 
 phc = PARALLEL_HILL_CLIMBER()
 for i in range(1):

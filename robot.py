@@ -22,7 +22,7 @@ class ROBOT:
         self.Prepare_To_Sense()
 
         
-       # self.Prepare_To_Act()
+       #self.Prepare_To_Act()
         
 
     def Prepare_To_Sense(self):
@@ -39,12 +39,12 @@ class ROBOT:
  
 
     def Act(self, t):
-      
+        print('in act')
         for neuronName in self.nn.Get_Neuron_Names():
             if self.nn.Is_Motor_Neuron(neuronName):
                 jointName = self.nn.Get_Motor_Neurons_Joint(neuronName)
                 desiredAngle = self.nn.Get_Value_Of(neuronName) * c.motorJointRange
-
+                print('motor', jointName, desiredAngle)
                 MOTOR.Set_Value(self, jointName, desiredAngle) # Step 72
 
 
@@ -67,7 +67,7 @@ class ROBOT:
     
 
 
-    #    def Prepare_To_Act(self):
+    # def Prepare_To_Act(self):
     #     self.motors = {}
 
     #     for jointName in pyrosim.jointNamesToIndices:
