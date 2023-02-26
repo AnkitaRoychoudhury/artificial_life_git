@@ -1,3 +1,30 @@
 pybullet build time: Nov 30 2022 00:07:30
-b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
-expected a world element, continuing without it.
+Version = 4.1 Metal - 76.3
+Vendor = Apple
+Renderer = Apple M2
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: expected a world element, continuing without it.
+Traceback (most recent call last):
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulate2.py", line 15, in <module>
+    simulation = SIMULATION(directOrGUI, solutionID)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/simulation.py", line 25, in __init__
+    self.robot = ROBOT(self.solutionID)
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/robot.py", line 18, in __init__
+    self.nn = NEURAL_NETWORK("brain" + str(self.solutionID) + ".nndf")
+  File "/Users/ankitaroychoudhury/Documents/2_winter_nu/alife/artificial_life_git/pyrosim/neuralNetwork.py", line 13, in __init__
+    f = open(nndfFileName,"r")
+FileNotFoundError: [Errno 2] No such file or directory: 'brain1.nndf'
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
