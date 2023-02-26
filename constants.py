@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-num_iters = 1000
+num_iters = 10000
 sleep_time = 1/10000
 
 amplitude_BackLeg = np.pi/4
@@ -17,17 +17,14 @@ a = -np.pi/2
 b = np.pi/2
 targPos = (b-a) * random.random() + a
 #targPos = random.uniform(a,b)
-force = 1
+
 #100
 
-numberOfGenerations = 2
-populationSize = 2
+numberOfGenerations = 1
+populationSize = 1
 
-#numSensorNeurons = 3
-#random.randint(1,5)
-#numMotorNeurons = 3
 numMotorNeurons = random.randint(1,7)
-#numSensorNeurons = random.randint(1,numMotorNeurons)
 maxLen = 0.5
 
-motorJointRange = 1
+motorJointRange = 0.2
+force = 100
