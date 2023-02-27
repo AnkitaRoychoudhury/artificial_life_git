@@ -18,6 +18,8 @@ An example of a morphology is:
 
 The brain is created by sending sensor neurons to only those links that are chosen to have sensors. Every link receives a motor neuron. Every pair of motor and sensors will receive a synapse.
 
+The fitness functions is to see how far away from the starting point the morphology can get. I am testing to see what is the optimal number, distance, and width of legs for running. A mutation event is changing the weight of a synapse which will affect how the morphology moves.
+
 ## Recreate
 You can run this code by cloning branch a8 and running 'python search.py' in your command line.
 
