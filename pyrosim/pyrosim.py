@@ -45,7 +45,7 @@ def End_Model():
 def Get_Touch_Sensor_Value_For_Link(linkName):
 
     touchValue = -1.0
-
+    #print('LINKNAME', linkName)
     desiredLinkIndex = linkNamesToIndices[linkName]
 
     pts = p.getContactPoints()
@@ -71,6 +71,7 @@ def Prepare_Link_Dictionary(bodyID):
         jointInfo = p.getJointInfo( bodyID , jointIndex )
 
         jointName = jointInfo[1]
+        #jointName = jointInfo[1].decode("UTF-8")
 
         jointName = jointName.decode("utf-8")
 

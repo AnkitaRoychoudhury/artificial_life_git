@@ -20,11 +20,11 @@ targPos = (b-a) * random.random() + a
 
 #100
 
-numberOfGenerations = 1
-populationSize = 1
+numberOfGenerations = 10
+populationSize = 5
 
 numMotorNeurons = random.randint(1,7)
 maxLen = 0.5
 
-motorJointRange = 0.2
+motorJointRange = 1
 force = 100

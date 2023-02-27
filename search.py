@@ -8,6 +8,7 @@ phc = PARALLEL_HILL_CLIMBER()
 for i in range(1):
     #phc.Show_Best()
     phc.Evolve()
+    print('here')
     phc.Show_Best()
 
 #os.system('python3 hillclimber.py')

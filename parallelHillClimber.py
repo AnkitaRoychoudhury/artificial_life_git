@@ -11,6 +11,8 @@ class PARALLEL_HILL_CLIMBER:
             os.remove('brain*.nndf')
         if os.path.exists("fitness*.txt"):
             os.remove("fitness*.txt")
+        if os.path.exists('bestfitness.txt'):
+            os.remove('bestfitness.txt')
         
         
         #os.system('rm fitness*.txt')
@@ -68,21 +70,52 @@ class PARALLEL_HILL_CLIMBER:
         for i,key in enumerate(self.parents):
             if self.parents[i].fitness > self.children[i].fitness:
                 self.parents[i] = self.children[i]
+        
+       
+
 
     def Print(self):
         for i,key in enumerate(self.parents):
             print('\n',i, self.parents[i].fitness, self.children[i].fitness,'\n')
+
+         # identify lowest fitness to save
+        best_fitness = 5
+        for i,key in enumerate(self.parents):
+            if self.parents[i].fitness < best_fitness:
+                best_fitness = self.parents[i].fitness
+            if self.children[i].fitness < best_fitness:
+                best_fitness = self.children[i].fitness
+
+
+        
+
+        bestFitnessFileName = 'bestfitness.txt'
+        f = open(bestFitnessFileName, 'a')
+        f.write(str(best_fitness) + '\n')
+
+
+
+
+        # tmpFileName = 'tmp' + str(self.solutionID) + '.txt'
+        # fitnessFileName = 'fitness' + str(self.solutionID) + '.txt'
+        # f = open(tmpFileName, 'w')
+        # os.system('mv ' + tmpFileName + ' ' + fitnessFileName)
+        # f.write(str(xCoordinateOfLinkZero))
+        # f.close()
+
 
 
 
     def Show_Best(self):
         # find parent with the lowest fitness
         best_fitness = 5
+        best_parent_ind = 0
         #print(self.parents[0])
         for i,key in enumerate(self.parents):
             curr_fitness = self.parents[i].fitness
             if curr_fitness < best_fitness:
                 best_parent_ind = i
+                #best_fitness = curr_fitness
 
         best_parent = self.parents[best_parent_ind]
         best_parent.Start_Simulation("GUI")

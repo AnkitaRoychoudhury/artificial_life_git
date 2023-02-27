@@ -82,7 +82,10 @@ class SOLUTION:
         a = 0.2
         b = 1
 
-        pyrosim.Start_URDF("body.urdf")
+        pyrosim.Start_URDF("body" + str(self.myID) + ".urdf")
+
+        #pyrosim.Start_NeuralNetwork("brain" + str(self.myID) + ".nndf")
+
         
         pyrosim.Send_Cube(color_code = blue_code, color_name = blue_name, name = "Torso", pos=[1,0,1.5] , size=[4, 1, 1])
 
@@ -94,7 +97,9 @@ class SOLUTION:
         all_cubes = ['Leg2', 'Leg3', 'Leg4', 'Leg5']
         n = random.randint(1,4)
         self.chosen_cubes = random.sample(all_cubes, n)
-        self.sensor_cubes = ['Leg1']
+        self.sensor_cubes = ['Torso','Leg1']
+        self.chosen_cubes.append('Torso')
+        self.chosen_cubes.append('Leg1')
 
         if 'Leg2' in self.chosen_cubes:
             pyrosim.Send_Joint( name = "Torso_Leg2" , parent= "Torso" , child = "Leg2" , type = "revolute", position = [1.5, 0,1], jointAxis = '1 0 0')
@@ -162,9 +167,10 @@ class SOLUTION:
         self.numSensors = len(self.sensor_cubes)
 
         self.weights = np.random.rand(self.numSensors, self.numMotors) * 2 - 1
+        self.sensor_cubes = self.chosen_cubes
 
-        print(self.sensor_cubes, 'd', self.chosen_cubes)
-    
+        #print(self.sensor_cubes, 'd', self.chosen_cubes)
+
         pyrosim.End()
 
     def Create_Brain(self):
@@ -175,15 +181,25 @@ class SOLUTION:
         # give leg1 a sensor
         #pyrosim.Send_Sensor_Neuron(name = 0, linkName = 'Leg1')
 
-        # give first two cubes motors
-        pyrosim.Send_Motor_Neuron(name = 0 + self.numSensors, jointName = 'Torso_Leg1')
-
-
+        # give first link motor
+       # pyrosim.Send_Motor_Neuron(name = 0 + self.numSensors, jointName = 'Torso_Leg1')
+        all_sensors = []
+        all_motors = []
+        
         for i,sensor in enumerate(self.sensor_cubes):
             pyrosim.Send_Sensor_Neuron(name = i, linkName = sensor)
+            all_sensors.append((i,sensor))
 
+        self.chosen_cubes.remove('Torso')
+        self.chosen_cubes.sort()
         for j, motor in enumerate(self.chosen_cubes):
+            # if motor == 'Torso':
+            #     pass
+            # else:
             pyrosim.Send_Motor_Neuron(name = j + self.numSensors , jointName = 'Torso_' + motor)
+            all_motors.append((j+self.numSensors, 'Torso_' + motor))
+
+        #print('sm', all_sensors, all_motors)
 
         # all pairs of neurons must have synapses:
         for currentRow in range(self.numSensors):
@@ -200,10 +216,10 @@ class SOLUTION:
 
     def Mutate(self):
       
-        row = rand.randint(0,self.numMotors)
-        col = rand.randint(0,self.numSensors)
-        
-        self.weights[row,col] = rand.random() * 2 - 1
+        col = rand.randint(0,self.numMotors) - 1
+        row = rand.randint(0,self.numSensors) - 1
+        #print('nummo', self.numMotors, 'numse', self.numSensors,'row', row, 'col', col, 'weights', self.weights)
+        self.weights[row][col] = rand.random() * 2 - 1
 
 
     

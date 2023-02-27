@@ -14,7 +14,8 @@ class ROBOT:
         self.motors = {}
 
         self.solutionID = solutionID
-        self.robotId = p.loadURDF("body.urdf")
+        #self.robotId = p.loadURDF("body.urdf")
+        self.robotId = p.loadURDF('body' + self.solutionID + '.urdf')
         self.nn = NEURAL_NETWORK("brain" + str(self.solutionID) + ".nndf")
         os.system('rm brain' + str(self.solutionID) + ".nndf")
 
@@ -39,12 +40,12 @@ class ROBOT:
  
 
     def Act(self, t):
-        print('in act')
+        #print('in act')
         for neuronName in self.nn.Get_Neuron_Names():
             if self.nn.Is_Motor_Neuron(neuronName):
                 jointName = self.nn.Get_Motor_Neurons_Joint(neuronName)
                 desiredAngle = self.nn.Get_Value_Of(neuronName) * c.motorJointRange
-                print('motor', jointName, desiredAngle)
+                #print('motor', jointName, desiredAngle)
                 MOTOR.Set_Value(self, jointName, desiredAngle) # Step 72
 
 
