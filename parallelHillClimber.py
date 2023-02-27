@@ -11,6 +11,8 @@ class PARALLEL_HILL_CLIMBER:
             os.remove('brain*.nndf')
         if os.path.exists("fitness*.txt"):
             os.remove("fitness*.txt")
+        if os.path.exists('body*.urdf'):
+            os.remove('body*.urdf')
         if os.path.exists('bestfitness.txt'):
             os.remove('bestfitness.txt')
         
@@ -35,6 +37,7 @@ class PARALLEL_HILL_CLIMBER:
         self.Evaluate(self.parents)   
 
         for currentGeneration in range(c.numberOfGenerations):
+            print('currgen',currentGeneration)
             self.Evolve_For_One_Generation()
 
     def Evolve_For_One_Generation(self):
@@ -75,8 +78,8 @@ class PARALLEL_HILL_CLIMBER:
 
 
     def Print(self):
-        for i,key in enumerate(self.parents):
-            print('\n',i, self.parents[i].fitness, self.children[i].fitness,'\n')
+        #for i,key in enumerate(self.parents):
+            #print('\n',i, self.parents[i].fitness, self.children[i].fitness,'\n')
 
          # identify lowest fitness to save
         best_fitness = 5

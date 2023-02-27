@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-num_iters = 10000
+num_iters = 100000
 sleep_time = 1/10000
 
 amplitude_BackLeg = np.pi/4
@@ -20,8 +20,8 @@ targPos = (b-a) * random.random() + a
 
 #100
 
-numberOfGenerations = 10
-populationSize = 5
+numberOfGenerations = 100
+populationSize = 10
 
 numMotorNeurons = random.randint(1,7)
 maxLen = 0.5
