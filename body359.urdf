@@ -37,7 +37,7 @@
         <visual>
             <origin xyz="-0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.3742724408437714 1 1" />
+                <box size="0.7852897791178866 1 1" />
             </geometry>
             <material name="Green">
                 <color rgba="0 1.0 0.0 1.0"/>
@@ -46,36 +46,7 @@
         <collision>
             <origin xyz="-0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.3742724408437714 1 1" />
-            </geometry>
-        </collision>
-    </link>
-    <joint name="Torso_Leg2" type="revolute">
-       <parent link="Torso"/>
-       <child  link="Leg2"/>
-       <origin rpy="0 0 0" xyz="1.5 0 1" />
-     <axis xyz="1 0 0"/>
-       <limit effort="0.0" lower="-3.14159" upper="3.14159" velocity="0.0"/>
-    </joint>
-    <link name="Leg2">
-        <inertial>
-            <origin xyz="0.5 0 -0.5" rpy="0 0 0"/>
-            <mass value="1" />
-            <inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100" />
-        </inertial>
-        <visual>
-            <origin xyz="0.5 0 -0.5" rpy="0 0 0"/>
-            <geometry>
-                <box size="0.831864641431989 1 1" />
-            </geometry>
-            <material name="Cyan">
-                <color rgba="0 1.0 1.0 1.0"/>
-            </material>
-        </visual>
-        <collision>
-            <origin xyz="0.5 0 -0.5" rpy="0 0 0"/>
-            <geometry>
-                <box size="0.831864641431989 1 1" />
+                <box size="0.7852897791178866 1 1" />
             </geometry>
         </collision>
     </link>
@@ -95,16 +66,16 @@
         <visual>
             <origin xyz="0 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.3855042187762361 1 1" />
+                <box size="0.2644874185100625 1 1" />
             </geometry>
-            <material name="Cyan">
-                <color rgba="0 1.0 1.0 1.0"/>
+            <material name="Green">
+                <color rgba="0 1.0 0.0 1.0"/>
             </material>
         </visual>
         <collision>
             <origin xyz="0 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.3855042187762361 1 1" />
+                <box size="0.2644874185100625 1 1" />
             </geometry>
         </collision>
     </link>

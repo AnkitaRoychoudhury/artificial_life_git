@@ -37,7 +37,7 @@
         <visual>
             <origin xyz="-0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.694505321731063 1 1" />
+                <box size="0.6824512250261585 1 1" />
             </geometry>
             <material name="Green">
                 <color rgba="0 1.0 0.0 1.0"/>
@@ -46,7 +46,7 @@
         <collision>
             <origin xyz="-0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.694505321731063 1 1" />
+                <box size="0.6824512250261585 1 1" />
             </geometry>
         </collision>
     </link>
@@ -66,7 +66,7 @@
         <visual>
             <origin xyz="0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.6097142299287405 1 1" />
+                <box size="0.9090491386398567 1 1" />
             </geometry>
             <material name="Cyan">
                 <color rgba="0 1.0 1.0 1.0"/>
@@ -75,36 +75,7 @@
         <collision>
             <origin xyz="0.5 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.6097142299287405 1 1" />
-            </geometry>
-        </collision>
-    </link>
-    <joint name="Torso_Leg3" type="revolute">
-       <parent link="Torso"/>
-       <child  link="Leg3"/>
-       <origin rpy="0 0 0" xyz="0.75 0 1" />
-     <axis xyz="1 0 0"/>
-       <limit effort="0.0" lower="-3.14159" upper="3.14159" velocity="0.0"/>
-    </joint>
-    <link name="Leg3">
-        <inertial>
-            <origin xyz="0 0 -0.5" rpy="0 0 0"/>
-            <mass value="1" />
-            <inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100" />
-        </inertial>
-        <visual>
-            <origin xyz="0 0 -0.5" rpy="0 0 0"/>
-            <geometry>
-                <box size="0.6631506322268483 1 1" />
-            </geometry>
-            <material name="Green">
-                <color rgba="0 1.0 0.0 1.0"/>
-            </material>
-        </visual>
-        <collision>
-            <origin xyz="0 0 -0.5" rpy="0 0 0"/>
-            <geometry>
-                <box size="0.6631506322268483 1 1" />
+                <box size="0.9090491386398567 1 1" />
             </geometry>
         </collision>
     </link>
@@ -124,7 +95,7 @@
         <visual>
             <origin xyz="-1 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.41205344241500985 1 1" />
+                <box size="0.9147855898563957 1 1" />
             </geometry>
             <material name="Green">
                 <color rgba="0 1.0 0.0 1.0"/>
@@ -133,7 +104,7 @@
         <collision>
             <origin xyz="-1 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.41205344241500985 1 1" />
+                <box size="0.9147855898563957 1 1" />
             </geometry>
         </collision>
     </link>
@@ -153,16 +124,16 @@
         <visual>
             <origin xyz="1 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.546493231635731 1 1" />
+                <box size="0.3984539997680978 1 1" />
             </geometry>
-            <material name="Cyan">
-                <color rgba="0 1.0 1.0 1.0"/>
+            <material name="Green">
+                <color rgba="0 1.0 0.0 1.0"/>
             </material>
         </visual>
         <collision>
             <origin xyz="1 0 -0.5" rpy="0 0 0"/>
             <geometry>
-                <box size="0.546493231635731 1 1" />
+                <box size="0.3984539997680978 1 1" />
             </geometry>
         </collision>
     </link>
