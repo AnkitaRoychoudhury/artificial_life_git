@@ -29,8 +29,8 @@ class SOLUTION:
         self.Create_Brain()
     
         
-        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
-       # os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
+       # os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
+        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
 
  
 
@@ -63,7 +63,14 @@ class SOLUTION:
         z=0.5
 
         pyrosim.Start_SDF("world.sdf")
-        pyrosim.Send_Cube(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', name = "Torso", pos=[x,y,z] , size=[width, length, height])
+        pyrosim.Send_Cube(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', name = "Torso", pos=[x,y,z]
+         , size=[width, length, height],)
+
+        pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
+         name = "ball1", pos=[-3,-3,1]
+         , size=[0.5],)
+
+
         pyrosim.End()
 
     def Create_Body(self):
