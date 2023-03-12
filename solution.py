@@ -29,8 +29,8 @@ class SOLUTION:
         self.Create_Brain()
     
         
-        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
-       # os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
+        #os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
+        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
 
  
 
