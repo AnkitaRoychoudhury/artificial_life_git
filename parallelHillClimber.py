@@ -15,6 +15,9 @@ class PARALLEL_HILL_CLIMBER:
             os.remove('body*.urdf')
         if os.path.exists('bestfitness.txt'):
             os.remove('bestfitness.txt')
+
+
+        
         
         
         #os.system('rm fitness*.txt')
