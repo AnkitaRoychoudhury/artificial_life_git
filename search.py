@@ -5,7 +5,7 @@ import numpy as np
 np.random.seed(40)
 
 phc = PARALLEL_HILL_CLIMBER()
-for i in [2,3,4]:
+for i in [2]:
     #i = 4
         #phc.Show_Best()
     phc.Evolve(i)
