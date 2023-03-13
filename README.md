@@ -80,6 +80,8 @@ Also, when the spheres were bigger, the robot was launched into the air immediat
 
 Given more time, I would generate a creature that did not have such a constrained body plan. It would also be interesting to see what would happen if mutations were defined as a change in the body plan and motor weights. To continue, I would run the simulation for longer with more generations and higher population size. It would also be interesting to note the effect of pebble size on creature morphology and fitness. 
 
+Overall, I have attempted to investigate the effect of the environment on evolved morphologies and fitness. I noted that the pebble world tends to generate morphologies with fewer legs and fewer fitness values.
+
 ## Recreate
 You can run this code by cloning this branch (final) and running 'python search.py' in your command line. For now, the setting is such that there will be a population of 2 and 1 generation. You can change these values in constants.py.
 
