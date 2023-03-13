@@ -40,7 +40,7 @@ I tested this hypothesis by performing evolution for a number of generations and
 
 Specifically, I performed evolution 5 times for a population size of 10. Each run had 250-500 generations. For the pebble world, I also performed evolution 5 times for a population size of 10. Each run had 100-270 generations. At the end of each generation, I calculate and save the best fitness value of the entire population. 
 
-Unfortunately, I was not able to simulate 500 generations for the pebble world because generating a world with pebbles took a long time. I ran the pebble simulation overnight and was able to get data for only 250 generations. 
+Unfortunately, I was not able to simulate 500 generations for the pebble world because generating a world with pebbles took a long time. I ran the pebble simulation overnight and was able to get data for only 250 generations. In order to get 500 x 5 simulations, I would have had to run this for overnight for 10 nights - I did not start the project early enough.
 
 ### Results
 
@@ -77,7 +77,7 @@ Given more time, I would generate a creature that did not have such a constraine
 
 ## Recreate
 You can run this code by cloning this branch (final) and running 'python search.py' in your command line. For now, the setting is such that there will be a population of 2 and 1 generation. You can change these values in constants.py.
-![Alt text](images/img4_8.png?raw=true "Image 3")
+
 
 ## Citation
 This is material from a course taught at Northwestern University (ChE 396 Winter 2022) by Professor Sam Kriegman and TA Donna Hooshmand. Material from ludobots by Dr. Josh Bongard (www.reddit.com/r/ludobots) is used. Pyrosim, a python package for simulation, is also used to display the morphologies and movements.
