@@ -1,6 +1,11 @@
 # artificial_life_git
 ## Evolution and Environment
+### Videos
+2 min youtube video with an overview of the project: https://youtu.be/NMUtPP0yxRM
 
+short gif: https://youtu.be/m8vXxKYfKXw
+
+grading note: Scientist 16 points
 ### Inspiration
 Welcome to my evolution and environment github repository! In this branch (final), I explore the effect of the environment on evolution of simulated creatures. Imagine a world with only water, or only snow, or pebbles everywhere – would the evolved creatures walking the planet look anything like what we see today?
 
@@ -26,7 +31,7 @@ The genotype to phenotype map of this creature is shown below:
 
 ![Alt text](images/img4.png?raw=true "Image 4")
 
-Next, we give the creature a brain. The brain is created by sending sensor neurons to only the legs that have sensors. Every leg receives a motor neuron to help it move. Every pair of motor and sensors will receive a synapse that allows us to read in the function of the motor and change the weight, thereby changing the movement. This is where evolution happens. For each generation, I will change the weights of a synapse randomly which will affect the motor function of the morphology. 
+Next, we give the creature a brain. The brain is created by sending sensor neurons to only the legs that have sensors. Every leg receives a motor neuron to help it move. Every pair of motor and sensors will receive a synapse that allows us to read in the function of the motor and change the weight, thereby changing the movement. This is where evolution happens. For each generation, I will change the weights of a synapse randomly which will affect the motor function of the morphology. This defines a mutation.
 
 ![Alt text](images/img4_8.png?raw=true "Image 4_8")
 
@@ -38,7 +43,7 @@ I tested this hypothesis by performing evolution for a number of generations and
 
 ![Alt text](images/img5.png?raw=true "Image 5")
 
-Specifically, I performed evolution 5 times for a population size of 10. Each run had 250-500 generations. For the pebble world, I also performed evolution 5 times for a population size of 10. Each run had 100-270 generations. At the end of each generation, I calculate and save the best fitness value of the entire population. 
+Specifically, I performed evolution 5 times for a population size of 10. Each run had 250-500 generations. For the pebble world, I also performed evolution 5 times for a population size of 10. Each run had 100-500 generations. At the end of each generation, I calculate and save the best fitness value of the entire population. 
 
 Unfortunately, I was not able to simulate 500 generations for the pebble world because generating a world with pebbles took a long time. I ran the pebble simulation overnight and was able to get data for only 250 generations. In order to get 500 x 5 simulations, I would have had to run this for overnight for 10 nights - I did not start the project early enough.
 
@@ -46,7 +51,7 @@ Unfortunately, I was not able to simulate 500 generations for the pebble world b
 
 Fitness of a creature was measured by determining how far from the starting point it travelled. A creature that travelled farther was deemed ‘more fit’ than one that did not.
 
-Interestingly, I found that creatures in the pebble world did not go farther than creatures in the flat world. Instead, the pebbles were a hindrance rather than a benefit. They functioned to block the creature instead of causing it to move. As we can see in the fitness plot below, the simulations from the flat world had higher fitness values at the last generation than the simulations in the pebble world.
+Interestingly, I found that creatures in the pebble world did not go farther than creatures in the flat world. Instead, the pebbles were a hindrance rather than a benefit. They functioned to block the creature instead of causing it to move. As we can see in the fitness plot below, the simulations from the flat world had higher fitness values at the last generation than the simulations in the pebble world. This data was generated and saved in the 'data/' folder in this repository.
 
 ![Alt text](images/fitness_plots.png?raw=true "fitness plots")
 
