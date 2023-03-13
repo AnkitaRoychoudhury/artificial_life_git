@@ -35,19 +35,19 @@ class PARALLEL_HILL_CLIMBER:
         
 
 
-    def Evolve(self):
+    def Evolve(self,s):
 
         self.Evaluate(self.parents)   
 
         for currentGeneration in range(c.numberOfGenerations):
-            print('currgen',currentGeneration)
-            self.Evolve_For_One_Generation()
+            print('sim#',s,'currgen',currentGeneration)
+            self.Evolve_For_One_Generation(s)
 
-    def Evolve_For_One_Generation(self):
+    def Evolve_For_One_Generation(self,s):
         self.Spawn()
         self.Mutate()
         self.Evaluate(self.children)
-        self.Print()
+        self.Print(s)
         self.Select()
 
     def Spawn(self):
@@ -80,7 +80,7 @@ class PARALLEL_HILL_CLIMBER:
        
 
 
-    def Print(self):
+    def Print(self,s):
         #for i,key in enumerate(self.parents):
             #print('\n',i, self.parents[i].fitness, self.children[i].fitness,'\n')
 
@@ -95,7 +95,7 @@ class PARALLEL_HILL_CLIMBER:
 
         
 
-        bestFitnessFileName = 'bestfitness.txt'
+        bestFitnessFileName = 'data/bestfitness_sphere' + str(s) +'.txt'
         f = open(bestFitnessFileName, 'a')
         f.write(str(best_fitness) + '\n')
 

@@ -29,8 +29,8 @@ class SOLUTION:
         self.Create_Brain()
     
         
-       # os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
-        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
+        os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " 2&>1 &")
+        #os.system('python3 simulate2.py ' + directOrGUI + " " + str(self.myID) + " &")
 
  
 
@@ -42,7 +42,11 @@ class SOLUTION:
             time.sleep(1)
 
         f = open(fitnessFileName, "r")
-        self.fitness = float(f.readlines()[0])
+        try:
+            self.fitness = float(f.readlines()[0])
+        except:
+            print('exception occured')
+            self.fitness = 0
 
         f.close()
         os.system('rm ' + fitnessFileName)
@@ -67,9 +71,31 @@ class SOLUTION:
         pyrosim.Send_Cube(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', name = "Torso", pos=[x,y,z]
          , size=[length,width,height],)
 
+        sphere_size = 0.2
         # pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
         #  name = "ball1", pos=[-3,-3,1]
-        #  , size=[0.5],)
+        #  , size=[sphere_size],)
+
+
+        for i in range(7):
+            for j in range(7):
+                i = i+1 
+                j = j+1
+                pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
+                    name = "ball1", pos=[-i,-j,1]
+                    , size=[sphere_size],)
+
+                pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
+                    name = "ball1", pos=[i,j,1]
+                    , size=[sphere_size],)
+
+                pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
+                    name = "ball1", pos=[i,-j,1]
+                    , size=[sphere_size],)
+
+                pyrosim.Send_Sphere(color_code ='<color rgba="0 1.0 1.0 1.0"/>',color_name = '<material name="Cyan">', 
+                    name = "ball1", pos=[-i,j,1]
+                    , size=[sphere_size],)
 
 
         pyrosim.End()
@@ -83,7 +109,7 @@ class SOLUTION:
         blue_code='    <color rgba="0 1.0 1.0 1.0"/>'
         blue_name = '<material name="Cyan">'
         
-        pyrosim.Start_URDF("body" + str(self.myID) + ".urdf")
+        pyrosim.Start_URDF("body/body" + str(self.myID) + ".urdf")
 
         self.sensor_cubes = []
         self.chosen_cubes = []
@@ -94,10 +120,9 @@ class SOLUTION:
 
         # get number of torsos
         #numTorso = random.randint(1,8)
-        numTorso = 2
+        numTorso = 1
         for n_torso in range(numTorso):
         
-            print('numtorso',numTorso)
             curr_torso_name = 'Torso'+str(n_torso)
             
             # define first torso and joint
@@ -207,13 +232,11 @@ class SOLUTION:
         self.weights = np.random.rand(self.numSensors, self.numMotors) * 2 - 1
         #self.sensor_cubes = self.chosen_cubes
 
-        #print(self.sensor_cubes, 'd', self.chosen_cubes)
 
         pyrosim.End()
 
     def Create_Brain(self):
 
-        print('HERE', self.myID)
         pyrosim.Start_NeuralNetwork("brain" + str(self.myID) + ".nndf")
 
         # give leg1 a sensor
@@ -223,7 +246,6 @@ class SOLUTION:
        # pyrosim.Send_Motor_Neuron(name = 0 + self.numSensors, jointName = 'Torso_Leg1')
         #all_sensors = []
         #all_motors = []
-        print()
         for i,sensor in enumerate(self.sensor_cubes):
             pyrosim.Send_Sensor_Neuron(name = i, linkName = sensor)
             #all_sensors.append((i,sensor))
@@ -238,7 +260,6 @@ class SOLUTION:
             pyrosim.Send_Motor_Neuron(name = j + self.numSensors , jointName = curr_joint)
             #all_motors.append((j+self.numSensors, 'Torso_' + motor))
 
-        #print('sm', all_sensors, all_motors)
 
         # all pairs of neurons must have synapses:
         for currentRow in range(self.numSensors):

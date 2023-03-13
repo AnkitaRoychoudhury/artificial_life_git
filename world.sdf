@@ -29,4 +29,5884 @@
             </visual>
         </link>
     </model>
+    <model name="ball1">
+        <pose>-1 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>1 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>1 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-1 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-2 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>2 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>2 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-2 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-2 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>2 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>2 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-2 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>3 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-3 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>4 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-4 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>5 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-5 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>6 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-6 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-12 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>12 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>12 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-12 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>7 -1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-7 1 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>8 -2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-8 2 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>9 -3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-9 3 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>10 -4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-10 4 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>11 -5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-11 5 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-12 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>12 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>12 -6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-12 6 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-13 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>13 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>13 -7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="ball1">
+        <pose>-13 7 1 0 0 0 </pose>
+        <link name="ball1">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                 <sphere>
+                 <radius>0.2</radius>
+                 </sphere>
+                </geometry>
+            </visual>
+        </link>
+    </model>
 </sdf>

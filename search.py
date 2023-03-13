@@ -5,9 +5,10 @@ import numpy as np
 np.random.seed(40)
 
 phc = PARALLEL_HILL_CLIMBER()
-for i in range(1):
-    #phc.Show_Best()
-    phc.Evolve()
+for i in [2,3,4]:
+    #i = 4
+        #phc.Show_Best()
+    phc.Evolve(i)
     phc.Show_Best()
 
 #os.system('python3 hillclimber.py')
