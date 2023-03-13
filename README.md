@@ -1,11 +1,12 @@
 # artificial_life_git
 ## Evolution and Environment
+grading note: Scientist 16 points
+
 ### Videos
 2 min youtube video with an overview of the project: https://youtu.be/NMUtPP0yxRM
 
 short gif: https://youtu.be/m8vXxKYfKXw
 
-grading note: Scientist 16 points
 ### Inspiration
 Welcome to my evolution and environment github repository! In this branch (final), I explore the effect of the environment on evolution of simulated creatures. Imagine a world with only water, or only snow, or pebbles everywhere – would the evolved creatures walking the planet look anything like what we see today?
 
